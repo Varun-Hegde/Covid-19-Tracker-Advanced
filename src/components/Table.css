@@ -1,0 +1,29 @@
+.table {
+	margin-top: 20px;
+	overflow: auto;
+	height: 400px;
+	color: white;
+	opacity: 0.88;
+}
+
+.table tr:nth-of-type(odd) {
+	background-color: #333333;
+}
+
+.table tr {
+	display: flex;
+	justify-content: space-between;
+}
+
+.table td {
+	padding: 8px;
+}
+
+.num {
+	margin-right: 7px;
+}
+
+.simplebar-scrollbar:before {
+	background-color: #dae0e2 !important;
+	height: 90px;
+}
